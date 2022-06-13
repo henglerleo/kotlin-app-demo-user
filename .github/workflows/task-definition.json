@@ -42,7 +42,7 @@
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "138722442195.dkr.ecr.sa-east-1.amazonaws.com/springboot-images-new:latest",
+      "image": "138722442195.dkr.ecr.sa-east-1.amazonaws.com/demo-kotlin:latest",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -69,7 +69,7 @@
     "EC2",
     "FARGATE"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:sa-east-1:138722442195:task-definition/task-demo-kotlin:1",
+  "taskDefinitionArn": "arn:aws:ecs:sa-east-1:138722442195:task-definition/task-demo-kotlin:2",
   "family": "task-demo-kotlin",
   "requiresAttributes": [
     {
@@ -125,7 +125,7 @@
     "cpuArchitecture": null
   },
   "cpu": "512",
-  "revision": 1,
+  "revision": 2,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
