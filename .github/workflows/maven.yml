@@ -35,6 +35,9 @@ jobs:
         id: login-ecr
         uses: aws-actions/amazon-ecr-login@aaf69d68aa3fb14c1d5a6be9ac61fe15b48453a2
 
+      - name: Build with Maven
+        run: mvn -B package -Pprod --file pom.xml
+
       - name: Build, tag, and push image to Amazon ECR
         id: build-image
         env:
