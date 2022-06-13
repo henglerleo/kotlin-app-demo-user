@@ -42,7 +42,7 @@
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "138722442195.dkr.ecr.sa-east-1.amazonaws.com/demo-kotlin:latest",
+      "image": "138722442195.dkr.ecr.sa-east-1.amazonaws.com/demo-kotlin:latest138722442195.dkr.ecr.sa-east-1.amazonaws.com/demo-kotlin:latest",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -120,12 +120,8 @@
     "FARGATE"
   ],
   "networkMode": "awsvpc",
-  "runtimePlatform": {
-    "operatingSystemFamily": "LINUX",
-    "cpuArchitecture": null
-  },
   "cpu": "512",
-  "revision": 2,
+  "revision": 3,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
