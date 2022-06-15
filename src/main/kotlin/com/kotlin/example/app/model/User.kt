@@ -12,6 +12,5 @@ data class User(
     val id: Long? = null,
     var name: String,
     var age: Int,
-    val doc: Long,
-    val field: String = "Default"
+    val doc: Long
 )
