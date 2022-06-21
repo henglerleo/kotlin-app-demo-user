@@ -4,3 +4,4 @@ data class UserResponse(
     val name: String,
     val age: Int,
     val doc: Long
+)
