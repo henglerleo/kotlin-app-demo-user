@@ -7,12 +7,12 @@ on:
     branches: [ "main" ]
 
 env:
-  AWS_REGION: sa-east-1
+  AWS_REGION: us-east-1
   ECR_REPOSITORY: demo-kotlin
-  ECS_SERVICE: service-demo-kotlin
-  ECS_CLUSTER: cluster-demo-kotlin
+  ECS_SERVICE: demo-kotlin-service
+  ECS_CLUSTER: demo-kotlin-cluster
   ECS_TASK_DEFINITION: .github/workflows/task-definition.json
-  CONTAINER_NAME: container-demo-kotlin
+  CONTAINER_NAME: demo-kotlin-container
 
 jobs:
   deploy:
